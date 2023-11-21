@@ -9,7 +9,24 @@ import SwiftUI
 
 struct ColorAndFrame: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            Color.blue
+                .frame(minWidth: 200, maxWidth: .infinity,  minHeight: 200, maxHeight: .infinity)
+            Text("Your content")
+                .background(.red)
+        }
+        
+        ZStack {
+            VStack(spacing: 0) {
+                Color.green
+                Color.yellow
+            }
+            Text("Your Content")
+                .foregroundStyle(.secondary)
+                .padding(50)
+                .background(.ultraThinMaterial)
+            }
+        .ignoresSafeArea()
     }
 }
 

@@ -13,6 +13,9 @@
 		41124AEE2B0C33D000C36A46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41124AED2B0C33D000C36A46 /* Preview Assets.xcassets */; };
 		41124AF52B0C34D300C36A46 /* StacksToArrangeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124AF42B0C34D300C36A46 /* StacksToArrangeViews.swift */; };
 		41124AF82B0C35DD00C36A46 /* ColorAndFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124AF72B0C35DD00C36A46 /* ColorAndFrame.swift */; };
+		41124AFA2B0C37EE00C36A46 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124AF92B0C37EE00C36A46 /* Gradients.swift */; };
+		41124AFC2B0C392D00C36A46 /* ButtonsandImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124AFB2B0C392D00C36A46 /* ButtonsandImages.swift */; };
+		41124AFE2B0C3F8C00C36A46 /* ShowingAlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124AFD2B0C3F8C00C36A46 /* ShowingAlertMessages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		41124AED2B0C33D000C36A46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41124AF42B0C34D300C36A46 /* StacksToArrangeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksToArrangeViews.swift; sourceTree = "<group>"; };
 		41124AF72B0C35DD00C36A46 /* ColorAndFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAndFrame.swift; sourceTree = "<group>"; };
+		41124AF92B0C37EE00C36A46 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
+		41124AFB2B0C392D00C36A46 /* ButtonsandImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsandImages.swift; sourceTree = "<group>"; };
+		41124AFD2B0C3F8C00C36A46 /* ShowingAlertMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAlertMessages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,7 @@
 		41124ADA2B0C33CC00C36A46 = {
 			isa = PBXGroup;
 			children = (
+				41124AFD2B0C3F8C00C36A46 /* ShowingAlertMessages.swift */,
 				41124AE52B0C33CD00C36A46 /* GuessTheFlag */,
 				41124AE42B0C33CD00C36A46 /* Products */,
 			);
@@ -77,6 +84,8 @@
 			children = (
 				41124AF42B0C34D300C36A46 /* StacksToArrangeViews.swift */,
 				41124AF72B0C35DD00C36A46 /* ColorAndFrame.swift */,
+				41124AF92B0C37EE00C36A46 /* Gradients.swift */,
+				41124AFB2B0C392D00C36A46 /* ButtonsandImages.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -152,9 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				41124AE92B0C33CD00C36A46 /* ContentView.swift in Sources */,
+				41124AFA2B0C37EE00C36A46 /* Gradients.swift in Sources */,
+				41124AFE2B0C3F8C00C36A46 /* ShowingAlertMessages.swift in Sources */,
 				41124AE72B0C33CD00C36A46 /* GuessTheFlagApp.swift in Sources */,
 				41124AF52B0C34D300C36A46 /* StacksToArrangeViews.swift in Sources */,
 				41124AF82B0C35DD00C36A46 /* ColorAndFrame.swift in Sources */,
+				41124AFC2B0C392D00C36A46 /* ButtonsandImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
