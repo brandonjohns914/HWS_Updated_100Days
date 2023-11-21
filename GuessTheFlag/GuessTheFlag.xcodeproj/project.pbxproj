@@ -45,7 +45,6 @@
 		41124ADA2B0C33CC00C36A46 = {
 			isa = PBXGroup;
 			children = (
-				41124AFD2B0C3F8C00C36A46 /* ShowingAlertMessages.swift */,
 				41124AE52B0C33CD00C36A46 /* GuessTheFlag */,
 				41124AE42B0C33CD00C36A46 /* Products */,
 			);
@@ -86,6 +85,7 @@
 				41124AF72B0C35DD00C36A46 /* ColorAndFrame.swift */,
 				41124AF92B0C37EE00C36A46 /* Gradients.swift */,
 				41124AFB2B0C392D00C36A46 /* ButtonsandImages.swift */,
+				41124AFD2B0C3F8C00C36A46 /* ShowingAlertMessages.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
