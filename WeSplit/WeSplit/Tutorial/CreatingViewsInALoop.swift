@@ -7,9 +7,21 @@
 
 import SwiftUI
 
+
 struct CreatingViewsInALoop: View {
+    let students = ["Harry", "Hermione", "Ron"]
+    @State private var selectedStudent = "Harry"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Form {
+                Picker("Select your student", selection: $selectedStudent) {
+                    ForEach(students, id: \.self) {
+                        Text($0)
+                    }
+                }
+            }
+        }
     }
 }
 
