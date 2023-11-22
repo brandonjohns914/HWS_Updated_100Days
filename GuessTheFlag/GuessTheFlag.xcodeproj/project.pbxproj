@@ -16,6 +16,8 @@
 		41124AFA2B0C37EE00C36A46 /* Gradients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124AF92B0C37EE00C36A46 /* Gradients.swift */; };
 		41124AFC2B0C392D00C36A46 /* ButtonsandImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124AFB2B0C392D00C36A46 /* ButtonsandImages.swift */; };
 		41124AFE2B0C3F8C00C36A46 /* ShowingAlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124AFD2B0C3F8C00C36A46 /* ShowingAlertMessages.swift */; };
+		41124B002B0D79E800C36A46 /* StartingDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124AFF2B0D79E800C36A46 /* StartingDesign.swift */; };
+		41124B022B0D7A0600C36A46 /* UpgradedDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124B012B0D7A0600C36A46 /* UpgradedDesign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		41124AF92B0C37EE00C36A46 /* Gradients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradients.swift; sourceTree = "<group>"; };
 		41124AFB2B0C392D00C36A46 /* ButtonsandImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsandImages.swift; sourceTree = "<group>"; };
 		41124AFD2B0C3F8C00C36A46 /* ShowingAlertMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingAlertMessages.swift; sourceTree = "<group>"; };
+		41124AFF2B0D79E800C36A46 /* StartingDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingDesign.swift; sourceTree = "<group>"; };
+		41124B012B0D7A0600C36A46 /* UpgradedDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradedDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				41124AE62B0C33CD00C36A46 /* GuessTheFlagApp.swift */,
 				41124AE82B0C33CD00C36A46 /* ContentView.swift */,
+				41124AFF2B0D79E800C36A46 /* StartingDesign.swift */,
+				41124B012B0D7A0600C36A46 /* UpgradedDesign.swift */,
 				41124AF62B0C34D700C36A46 /* Tutorials */,
 				41124AEA2B0C33D000C36A46 /* Assets.xcassets */,
 				41124AEC2B0C33D000C36A46 /* Preview Content */,
@@ -163,8 +169,10 @@
 				41124AE92B0C33CD00C36A46 /* ContentView.swift in Sources */,
 				41124AFA2B0C37EE00C36A46 /* Gradients.swift in Sources */,
 				41124AFE2B0C3F8C00C36A46 /* ShowingAlertMessages.swift in Sources */,
+				41124B022B0D7A0600C36A46 /* UpgradedDesign.swift in Sources */,
 				41124AE72B0C33CD00C36A46 /* GuessTheFlagApp.swift in Sources */,
 				41124AF52B0C34D300C36A46 /* StacksToArrangeViews.swift in Sources */,
+				41124B002B0D79E800C36A46 /* StartingDesign.swift in Sources */,
 				41124AF82B0C35DD00C36A46 /* ColorAndFrame.swift in Sources */,
 				41124AFC2B0C392D00C36A46 /* ButtonsandImages.swift in Sources */,
 			);
