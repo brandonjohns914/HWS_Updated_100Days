@@ -10,12 +10,12 @@ import SwiftUI
 struct UpgradedDesign: View {
     @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"].shuffled()
     @State private var correctAnswer = Int.random(in: 0...2)
-    @State private var showingScore = false
     @State private var scoringTitle = ""
+    @State private var showingScore = false
+    @State private var showingResults = false
     @State private var score = 0
-    @State private var over8QuestionsTitle = ""
-    @State private var questions = 0
-    @State private var showingOver8Questions = false
+    @State private var questionCounter = 1
+    
     var body: some View {
         ZStack {
             RadialGradient(stops: [
@@ -64,6 +64,13 @@ struct UpgradedDesign: View {
                 Button("Continue", action: askQuestion)
             } message: {
                 Text("Your score is \(score)")
+            
+            }
+            .alert("Game Over", isPresented: $showingResults) {
+                Button("New Game", action: newGame)
+            } message: {
+                Text("Your final score was \(score)")
+            
             }
 
             .padding()
@@ -71,30 +78,38 @@ struct UpgradedDesign: View {
     }
     
     func flagTapped(_ number: Int ) {
-        
-        if questions <= 8 {
-            questions += 1
             if number == correctAnswer {
                 scoringTitle = "Correct"
                 score += 1
             } else {
-                scoringTitle = "Wrong, thats \(countries[number])"
-                score -= 1
+                let theirAnswer = (countries[number])
+                let needsThe = ["UK", "US"]
+                if needsThe.contains(theirAnswer)
+                {
+                    scoringTitle = "Wrong, thats the flag of the \(theirAnswer) "
+                } else {
+                    scoringTitle = "Wrong, thats the flag of \(theirAnswer) "
+                }
+                if score > 0 {
+                    score -= 1
+                }
             }
+        if questionCounter == 8 {
+            showingResults = true
         } else {
-            scoringTitle = "Your Final score is \(score)"
+            showingScore = true
         }
-        score = 0
-        questions = 0
-        showingScore = true
     }
-    
     func askQuestion() {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
+        questionCounter += 1
     }
-    
-   
+    func newGame() {
+        questionCounter = 0
+        score = 0
+        askQuestion()
+    }
 }
 
 #Preview {
