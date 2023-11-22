@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct UpgradedDesign: View {
-    @State private var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"].shuffled()
+    static let allCountries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"]
+    
+    @State private var countries = allCountries.shuffled()
     @State private var correctAnswer = Int.random(in: 0...2)
     @State private var scoringTitle = ""
     @State private var showingScore = false
@@ -101,6 +103,7 @@ struct UpgradedDesign: View {
         }
     }
     func askQuestion() {
+        countries.remove(at: correctAnswer)
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
         questionCounter += 1
@@ -108,6 +111,7 @@ struct UpgradedDesign: View {
     func newGame() {
         questionCounter = 0
         score = 0
+        countries = Self.allCountries
         askQuestion()
     }
 }
