@@ -20,6 +20,8 @@
 		41124B2B2B0ED11F00C36A46 /* ViewComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124B2A2B0ED11F00C36A46 /* ViewComposition.swift */; };
 		41124B2D2B0ED27500C36A46 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124B2C2B0ED27500C36A46 /* CustomModifiers.swift */; };
 		41124B2F2B0ED46900C36A46 /* CustomContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41124B2E2B0ED46900C36A46 /* CustomContainers.swift */; };
+		41EB759C2B0EDD3100F8769E /* EnterNumbersWithAStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB759B2B0EDD3100F8769E /* EnterNumbersWithAStepper.swift */; };
+		41EB759E2B0EDE3C00F8769E /* EnteringDateTimeWithPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB759D2B0EDE3C00F8769E /* EnteringDateTimeWithPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		41124B2A2B0ED11F00C36A46 /* ViewComposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewComposition.swift; sourceTree = "<group>"; };
 		41124B2C2B0ED27500C36A46 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		41124B2E2B0ED46900C36A46 /* CustomContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainers.swift; sourceTree = "<group>"; };
+		41EB759B2B0EDD3100F8769E /* EnterNumbersWithAStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNumbersWithAStepper.swift; sourceTree = "<group>"; };
+		41EB759D2B0EDE3C00F8769E /* EnteringDateTimeWithPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnteringDateTimeWithPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				41124B2A2B0ED11F00C36A46 /* ViewComposition.swift */,
 				41124B2C2B0ED27500C36A46 /* CustomModifiers.swift */,
 				41124B2E2B0ED46900C36A46 /* CustomContainers.swift */,
+				41EB759B2B0EDD3100F8769E /* EnterNumbersWithAStepper.swift */,
+				41EB759D2B0EDE3C00F8769E /* EnteringDateTimeWithPicker.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -175,8 +181,10 @@
 				41124B122B0EBF5700C36A46 /* ContentView.swift in Sources */,
 				41124B2F2B0ED46900C36A46 /* CustomContainers.swift in Sources */,
 				41124B2D2B0ED27500C36A46 /* CustomModifiers.swift in Sources */,
+				41EB759C2B0EDD3100F8769E /* EnterNumbersWithAStepper.swift in Sources */,
 				41124B292B0ECF2100C36A46 /* ViewsAsProperties.swift in Sources */,
 				41124B102B0EBF5700C36A46 /* ViewsAndModifiersApp.swift in Sources */,
+				41EB759E2B0EDE3C00F8769E /* EnteringDateTimeWithPicker.swift in Sources */,
 				41124B272B0ECD3E00C36A46 /* EnvironmentModifiers.swift in Sources */,
 				41124B2B2B0ED11F00C36A46 /* ViewComposition.swift in Sources */,
 				41124B1F2B0EBF8800C36A46 /* WhatIsBehindMainSwiftUIView.swift in Sources */,
