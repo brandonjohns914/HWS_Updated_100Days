@@ -11,6 +11,7 @@ struct ContentView: View {
     @State private var checkAmount = 0.0
     @State private var numberOfPeople = 2
     @State private var tipPercentage = 20
+    @State private var useRedText = false
     @FocusState private var amountIsFocused: Bool
     let tipPercentages = [10,15,20,25,0]
     
@@ -48,6 +49,7 @@ struct ContentView: View {
                         ForEach(0..<101) {
                             Text($0, format: .percent)
                         }
+                        
                     }
                 
                 }
@@ -57,11 +59,17 @@ struct ContentView: View {
                     Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                 }
                 
+                Section("Tip Percentage") {
+                    Text("\(tipPercentage) %")
+                        .foregroundStyle(tipPercentage == 0 ? .red : .primary)
+                }
+                
                 Section("Check amount") {
                     let formatted = String(format: "%.2f", checkAmount)
                     Text(formatted)
                         
                 }
+                
             }
             .navigationTitle("WeSplit")
             .toolbar {
