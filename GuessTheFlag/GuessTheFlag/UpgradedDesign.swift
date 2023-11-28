@@ -7,6 +7,29 @@
 
 import SwiftUI
 
+struct TitleModifier: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle.bold())
+            .foregroundStyle(.white)
+    }
+}
+
+extension View {
+    func title() -> some View {
+        modifier(TitleModifier())
+    }
+}
+struct FlagImage: View {
+    let name: String
+    
+    var body: some View {
+        Image(name)
+            .clipShape(.capsule)
+            .shadow(radius: 5)
+    }
+}
+
 struct UpgradedDesign: View {
     static let allCountries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Spain", "UK", "Ukraine", "US"]
     
@@ -18,6 +41,9 @@ struct UpgradedDesign: View {
     @State private var score = 0
     @State private var questionCounter = 1
     
+    @State private var selectedFlag = -1
+   
+    
     var body: some View {
         ZStack {
             RadialGradient(stops: [
@@ -28,8 +54,7 @@ struct UpgradedDesign: View {
             VStack {
                 Spacer()
                 Text("Guess the flag")
-                    .font(.largeTitle.bold())
-                    .foregroundStyle(.white)
+                    .title()
                 VStack(spacing: 15) {
                     VStack {
                         Text("Tap the flag of")
@@ -44,17 +69,29 @@ struct UpgradedDesign: View {
                         
                         Button {
                             flagTapped(number)
+                            
+                            
+                            
+                            
                         } label: {
-                            Image(countries[number])
-                                .clipShape(.capsule)
-                                .shadow(radius: 5)
+                            FlagImage(name: countries[number])
+                                .rotation3DEffect(.degrees(selectedFlag == number ? 360 : 0), axis: (x: 0, y: 1, z: 0))
+                                .opacity(selectedFlag == -1 || selectedFlag == number ? 1.0 : 0.25)
+                                .scaleEffect(selectedFlag == -1 || selectedFlag == number ? 1.0 : 0.25)
+                                .animation(.default, value: selectedFlag)
+                                
                         }
+                        
+                        
                     }
+                   
                 }
+                
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 20)
                 .background(.regularMaterial)
                 .clipShape(.rect(cornerRadius: 20))
+                
                 Spacer()
                 Spacer()
                 Text("Score: \(score)")
@@ -76,6 +113,7 @@ struct UpgradedDesign: View {
             }
 
             .padding()
+           
         }
     }
     
@@ -83,7 +121,9 @@ struct UpgradedDesign: View {
             if number == correctAnswer {
                 scoringTitle = "Correct"
                 score += 1
-            } else {
+                selectedFlag = number
+            }
+        else {
                 let theirAnswer = (countries[number])
                 let needsThe = ["UK", "US"]
                 if needsThe.contains(theirAnswer)
@@ -107,6 +147,7 @@ struct UpgradedDesign: View {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
         questionCounter += 1
+        selectedFlag = -1
     }
     func newGame() {
         questionCounter = 0
