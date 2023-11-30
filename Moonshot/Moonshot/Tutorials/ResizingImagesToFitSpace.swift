@@ -12,7 +12,10 @@ struct ResizingImagesToFitSpace: View {
         Image(.apollo1)
             .resizable()
             .scaledToFit()
-            .frame(width: 300, height: 300)
+            .containerRelativeFrame(.horizontal) { size, axis in
+                size * 0.8
+                
+            }
             
     }
 }
