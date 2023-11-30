@@ -16,6 +16,8 @@
 		41EB76122B16BECB00F8769E /* DeletingItemsUsingOnDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB76112B16BECB00F8769E /* DeletingItemsUsingOnDelete.swift */; };
 		41EB76142B16C3E600F8769E /* StoringUserSettingsWithUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB76132B16C3E600F8769E /* StoringUserSettingsWithUserDefaults.swift */; };
 		41EB76162B16C68000F8769E /* ArchivingSwiftObjectsWithCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB76152B16C68000F8769E /* ArchivingSwiftObjectsWithCodable.swift */; };
+		41EB76182B181EFB00F8769E /* View-ExpenseStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB76172B181EFB00F8769E /* View-ExpenseStyle.swift */; };
+		41EB761A2B1824A000F8769E /* ExpenseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB76192B1824A000F8769E /* ExpenseSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		41EB76112B16BECB00F8769E /* DeletingItemsUsingOnDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletingItemsUsingOnDelete.swift; sourceTree = "<group>"; };
 		41EB76132B16C3E600F8769E /* StoringUserSettingsWithUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoringUserSettingsWithUserDefaults.swift; sourceTree = "<group>"; };
 		41EB76152B16C68000F8769E /* ArchivingSwiftObjectsWithCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivingSwiftObjectsWithCodable.swift; sourceTree = "<group>"; };
+		41EB76172B181EFB00F8769E /* View-ExpenseStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View-ExpenseStyle.swift"; sourceTree = "<group>"; };
+		41EB76192B1824A000F8769E /* ExpenseSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				41EB75FC2B169FB200F8769E /* iExpenseApp.swift */,
 				41EB75FE2B169FB200F8769E /* ContentView.swift */,
+				41EB76192B1824A000F8769E /* ExpenseSection.swift */,
+				41EB76172B181EFB00F8769E /* View-ExpenseStyle.swift */,
 				41EB760A2B16A28B00F8769E /* Tutorials */,
 				41EB76002B169FB400F8769E /* Assets.xcassets */,
 				41EB76022B169FB400F8769E /* Preview Content */,
@@ -161,8 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				41EB76162B16C68000F8769E /* ArchivingSwiftObjectsWithCodable.swift in Sources */,
+				41EB761A2B1824A000F8769E /* ExpenseSection.swift in Sources */,
 				41EB75FF2B169FB200F8769E /* ContentView.swift in Sources */,
 				41EB76142B16C3E600F8769E /* StoringUserSettingsWithUserDefaults.swift in Sources */,
+				41EB76182B181EFB00F8769E /* View-ExpenseStyle.swift in Sources */,
 				41EB76122B16BECB00F8769E /* DeletingItemsUsingOnDelete.swift in Sources */,
 				41EB76102B16BBF400F8769E /* ShowingAndHidingViews.swift in Sources */,
 				41EB760C2B16A2A000F8769E /* UsingAtStateWithClasses.swift in Sources */,
