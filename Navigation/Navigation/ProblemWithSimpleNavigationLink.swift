@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DetailView: View {
+struct DetailViews: View {
     var number: Int
     
     var body: some View {
