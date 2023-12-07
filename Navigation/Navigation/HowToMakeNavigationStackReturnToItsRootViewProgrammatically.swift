@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DetailView: View {
+struct DetailViewss: View {
     var number: Int
     @Binding var path: NavigationPath
     var body: some View {
@@ -25,9 +25,9 @@ struct HowToMakeNavigationStackReturnToItsRootViewProgrammatically: View {
     @State private var path = NavigationPath()
     var body: some View {
         NavigationStack(path: $path){
-            DetailView(number: 0, path: $path)
+            DetailViewss(number: 0, path: $path)
                 .navigationDestination(for: Int.self) { i in
-                    DetailView(number: i, path: $path)
+                    DetailViewss(number: i, path: $path)
                 }
         }
     }

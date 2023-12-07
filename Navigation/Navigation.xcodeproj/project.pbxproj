@@ -17,6 +17,9 @@
 		41DFC1562B20006C003B5764 /* NavigatingToDifferentDataTypesUsingNavigationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1552B20006C003B5764 /* NavigatingToDifferentDataTypesUsingNavigationPath.swift */; };
 		41DFC1582B20034B003B5764 /* HowToMakeNavigationStackReturnToItsRootViewProgrammatically.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1572B20034B003B5764 /* HowToMakeNavigationStackReturnToItsRootViewProgrammatically.swift */; };
 		41DFC15A2B200897003B5764 /* HowToSaveNavigationStackPathsUsingCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1592B200897003B5764 /* HowToSaveNavigationStackPathsUsingCodable.swift */; };
+		41DFC15C2B213BD2003B5764 /* CustomizingTheNavigationBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC15B2B213BD2003B5764 /* CustomizingTheNavigationBarAppearance.swift */; };
+		41DFC15E2B21427A003B5764 /* PlacingToolbarButtonsInExactLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC15D2B21427A003B5764 /* PlacingToolbarButtonsInExactLocations.swift */; };
+		41DFC1602B214477003B5764 /* MakingNavigationTitleEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC15F2B214477003B5764 /* MakingNavigationTitleEditable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		41DFC1552B20006C003B5764 /* NavigatingToDifferentDataTypesUsingNavigationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatingToDifferentDataTypesUsingNavigationPath.swift; sourceTree = "<group>"; };
 		41DFC1572B20034B003B5764 /* HowToMakeNavigationStackReturnToItsRootViewProgrammatically.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToMakeNavigationStackReturnToItsRootViewProgrammatically.swift; sourceTree = "<group>"; };
 		41DFC1592B200897003B5764 /* HowToSaveNavigationStackPathsUsingCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSaveNavigationStackPathsUsingCodable.swift; sourceTree = "<group>"; };
+		41DFC15B2B213BD2003B5764 /* CustomizingTheNavigationBarAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingTheNavigationBarAppearance.swift; sourceTree = "<group>"; };
+		41DFC15D2B21427A003B5764 /* PlacingToolbarButtonsInExactLocations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacingToolbarButtonsInExactLocations.swift; sourceTree = "<group>"; };
+		41DFC15F2B214477003B5764 /* MakingNavigationTitleEditable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakingNavigationTitleEditable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,9 @@
 				41DFC1552B20006C003B5764 /* NavigatingToDifferentDataTypesUsingNavigationPath.swift */,
 				41DFC1572B20034B003B5764 /* HowToMakeNavigationStackReturnToItsRootViewProgrammatically.swift */,
 				41DFC1592B200897003B5764 /* HowToSaveNavigationStackPathsUsingCodable.swift */,
+				41DFC15B2B213BD2003B5764 /* CustomizingTheNavigationBarAppearance.swift */,
+				41DFC15D2B21427A003B5764 /* PlacingToolbarButtonsInExactLocations.swift */,
+				41DFC15F2B214477003B5764 /* MakingNavigationTitleEditable.swift */,
 				41DFC1452B1FD2FA003B5764 /* Assets.xcassets */,
 				41DFC1472B1FD2FA003B5764 /* Preview Content */,
 			);
@@ -155,12 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DFC15E2B21427A003B5764 /* PlacingToolbarButtonsInExactLocations.swift in Sources */,
 				41DFC15A2B200897003B5764 /* HowToSaveNavigationStackPathsUsingCodable.swift in Sources */,
 				41DFC1582B20034B003B5764 /* HowToMakeNavigationStackReturnToItsRootViewProgrammatically.swift in Sources */,
 				41DFC1442B1FD2F9003B5764 /* ContentView.swift in Sources */,
 				41DFC1502B1FD37C003B5764 /* ProblemWithSimpleNavigationLink.swift in Sources */,
 				41DFC1562B20006C003B5764 /* NavigatingToDifferentDataTypesUsingNavigationPath.swift in Sources */,
+				41DFC1602B214477003B5764 /* MakingNavigationTitleEditable.swift in Sources */,
 				41DFC1542B1FFEAD003B5764 /* ProgrammaticNavigationWithNavigationStack.swift in Sources */,
+				41DFC15C2B213BD2003B5764 /* CustomizingTheNavigationBarAppearance.swift in Sources */,
 				41DFC1422B1FD2F9003B5764 /* NavigationApp.swift in Sources */,
 				41DFC1522B1FFDFE003B5764 /* HandlingNavigationWithNavigationDestination.swift in Sources */,
 			);
