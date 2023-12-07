@@ -48,6 +48,7 @@ struct AddViewNavigation: View {
             }
         }
         .navigationBarBackButtonHidden()
+        .navigationBarTitleDisplayMode(.inline)
     }
     
 }
