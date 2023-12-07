@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41DFC1642B2149CF003B5764 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1632B2149CF003B5764 /* Expenses.swift */; };
+		41DFC1662B2149F8003B5764 /* SheetVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1652B2149F8003B5764 /* SheetVersion.swift */; };
+		41DFC1682B214A4C003B5764 /* NavigationVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1672B214A4C003B5764 /* NavigationVersion.swift */; };
+		41DFC16A2B214A6A003B5764 /* AddViewSheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1692B214A6A003B5764 /* AddViewSheets.swift */; };
+		41DFC16C2B214ACB003B5764 /* AddViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC16B2B214ACB003B5764 /* AddViewNavigation.swift */; };
 		41EB75FD2B169FB200F8769E /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB75FC2B169FB200F8769E /* iExpenseApp.swift */; };
 		41EB75FF2B169FB200F8769E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EB75FE2B169FB200F8769E /* ContentView.swift */; };
 		41EB76012B169FB400F8769E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EB76002B169FB400F8769E /* Assets.xcassets */; };
@@ -21,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41DFC1632B2149CF003B5764 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		41DFC1652B2149F8003B5764 /* SheetVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetVersion.swift; sourceTree = "<group>"; };
+		41DFC1672B214A4C003B5764 /* NavigationVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVersion.swift; sourceTree = "<group>"; };
+		41DFC1692B214A6A003B5764 /* AddViewSheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewSheets.swift; sourceTree = "<group>"; };
+		41DFC16B2B214ACB003B5764 /* AddViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewNavigation.swift; sourceTree = "<group>"; };
 		41EB75F92B169FB200F8769E /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EB75FC2B169FB200F8769E /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
 		41EB75FE2B169FB200F8769E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +77,11 @@
 			children = (
 				41EB75FC2B169FB200F8769E /* iExpenseApp.swift */,
 				41EB75FE2B169FB200F8769E /* ContentView.swift */,
+				41DFC1672B214A4C003B5764 /* NavigationVersion.swift */,
+				41DFC16B2B214ACB003B5764 /* AddViewNavigation.swift */,
+				41DFC1632B2149CF003B5764 /* Expenses.swift */,
+				41DFC1652B2149F8003B5764 /* SheetVersion.swift */,
+				41DFC1692B214A6A003B5764 /* AddViewSheets.swift */,
 				41EB76192B1824A000F8769E /* ExpenseSection.swift */,
 				41EB76172B181EFB00F8769E /* View-ExpenseStyle.swift */,
 				41EB760A2B16A28B00F8769E /* Tutorials */,
@@ -166,14 +181,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DFC1662B2149F8003B5764 /* SheetVersion.swift in Sources */,
+				41DFC1642B2149CF003B5764 /* Expenses.swift in Sources */,
 				41EB76162B16C68000F8769E /* ArchivingSwiftObjectsWithCodable.swift in Sources */,
 				41EB761A2B1824A000F8769E /* ExpenseSection.swift in Sources */,
 				41EB75FF2B169FB200F8769E /* ContentView.swift in Sources */,
+				41DFC1682B214A4C003B5764 /* NavigationVersion.swift in Sources */,
 				41EB76142B16C3E600F8769E /* StoringUserSettingsWithUserDefaults.swift in Sources */,
+				41DFC16A2B214A6A003B5764 /* AddViewSheets.swift in Sources */,
 				41EB76182B181EFB00F8769E /* View-ExpenseStyle.swift in Sources */,
 				41EB76122B16BECB00F8769E /* DeletingItemsUsingOnDelete.swift in Sources */,
 				41EB76102B16BBF400F8769E /* ShowingAndHidingViews.swift in Sources */,
 				41EB760C2B16A2A000F8769E /* UsingAtStateWithClasses.swift in Sources */,
+				41DFC16C2B214ACB003B5764 /* AddViewNavigation.swift in Sources */,
 				41EB75FD2B169FB200F8769E /* iExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
