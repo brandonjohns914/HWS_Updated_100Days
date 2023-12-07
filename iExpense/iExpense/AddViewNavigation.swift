@@ -11,7 +11,7 @@ struct AddViewNavigation: View {
     @Environment(\.dismiss) var dismiss
     
     var expenses: Expenses
-    @State private var name = ""
+    @State private var name = "New Expense"
     @State private var type = "Personal"
     @State private var amount = 0.0
     let localCurrency = Locale.current.currency?.identifier ?? "USD"
@@ -20,8 +20,8 @@ struct AddViewNavigation: View {
     var body: some View {
         
         Form {
-            TextField("Name", text: $name)
             
+            TextField("Name", text: $name)
             Picker("Type", selection: $type) {
                 ForEach(types, id: \.self) {
                     Text($0)
@@ -31,7 +31,7 @@ struct AddViewNavigation: View {
             TextField("Amount", value: $amount, format: .currency(code: localCurrency))
                 .keyboardType(.decimalPad)
         }
-        .navigationTitle("Add new expense")
+        .navigationTitle($name)
         .toolbar {
             ToolbarItem(placement: .confirmationAction) {
                 Button("Save") {
