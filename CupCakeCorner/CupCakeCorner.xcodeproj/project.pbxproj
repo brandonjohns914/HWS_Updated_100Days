@@ -16,6 +16,8 @@
 		41DFC1972B229844003B5764 /* ValidatingAndDisablingForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1962B229844003B5764 /* ValidatingAndDisablingForms.swift */; };
 		41DFC1992B2299C8003B5764 /* AddingCodableConformanceToAtObservableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1982B2299C8003B5764 /* AddingCodableConformanceToAtObservableClass.swift */; };
 		41DFC19B2B229B1A003B5764 /* AddingHapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC19A2B229B1A003B5764 /* AddingHapticEffects.swift */; };
+		41DFC19D2B229F17003B5764 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC19C2B229F17003B5764 /* Order.swift */; };
+		41DFC19F2B22A0B3003B5764 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC19E2B22A0B3003B5764 /* AddressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		41DFC1962B229844003B5764 /* ValidatingAndDisablingForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatingAndDisablingForms.swift; sourceTree = "<group>"; };
 		41DFC1982B2299C8003B5764 /* AddingCodableConformanceToAtObservableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCodableConformanceToAtObservableClass.swift; sourceTree = "<group>"; };
 		41DFC19A2B229B1A003B5764 /* AddingHapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingHapticEffects.swift; sourceTree = "<group>"; };
+		41DFC19C2B229F17003B5764 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		41DFC19E2B22A0B3003B5764 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			children = (
 				41DFC1832B2156B2003B5764 /* CupCakeCornerApp.swift */,
 				41DFC1852B2156B2003B5764 /* ContentView.swift */,
+				41DFC19E2B22A0B3003B5764 /* AddressView.swift */,
+				41DFC19C2B229F17003B5764 /* Order.swift */,
 				41DFC1932B21589B003B5764 /* Tutorials */,
 				41DFC1872B2156B5003B5764 /* Assets.xcassets */,
 				41DFC1892B2156B5003B5764 /* Preview Content */,
@@ -162,8 +168,10 @@
 			files = (
 				41DFC19B2B229B1A003B5764 /* AddingHapticEffects.swift in Sources */,
 				41DFC1972B229844003B5764 /* ValidatingAndDisablingForms.swift in Sources */,
+				41DFC19D2B229F17003B5764 /* Order.swift in Sources */,
 				41DFC1992B2299C8003B5764 /* AddingCodableConformanceToAtObservableClass.swift in Sources */,
 				41DFC1862B2156B2003B5764 /* ContentView.swift in Sources */,
+				41DFC19F2B22A0B3003B5764 /* AddressView.swift in Sources */,
 				41DFC1952B229159003B5764 /* LoadingImageFromRemoteServer.swift in Sources */,
 				41DFC1842B2156B2003B5764 /* CupCakeCornerApp.swift in Sources */,
 				41DFC1922B215897003B5764 /* SendingRecievingCodableDataWithURLSessions.swift in Sources */,
