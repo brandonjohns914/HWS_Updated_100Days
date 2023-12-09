@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4130CFFB2B250F66000EDD69 /* Checkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130CFFA2B250F66000EDD69 /* Checkout.swift */; };
 		41DFC1842B2156B2003B5764 /* CupCakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1832B2156B2003B5764 /* CupCakeCornerApp.swift */; };
 		41DFC1862B2156B2003B5764 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DFC1852B2156B2003B5764 /* ContentView.swift */; };
 		41DFC1882B2156B5003B5764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41DFC1872B2156B5003B5764 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4130CFFA2B250F66000EDD69 /* Checkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkout.swift; sourceTree = "<group>"; };
 		41DFC1802B2156B2003B5764 /* CupCakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupCakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41DFC1832B2156B2003B5764 /* CupCakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupCakeCornerApp.swift; sourceTree = "<group>"; };
 		41DFC1852B2156B2003B5764 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			children = (
 				41DFC1832B2156B2003B5764 /* CupCakeCornerApp.swift */,
 				41DFC1852B2156B2003B5764 /* ContentView.swift */,
+				4130CFFA2B250F66000EDD69 /* Checkout.swift */,
 				41DFC19E2B22A0B3003B5764 /* AddressView.swift */,
 				41DFC19C2B229F17003B5764 /* Order.swift */,
 				41DFC1932B21589B003B5764 /* Tutorials */,
@@ -173,6 +176,7 @@
 				41DFC1862B2156B2003B5764 /* ContentView.swift in Sources */,
 				41DFC19F2B22A0B3003B5764 /* AddressView.swift in Sources */,
 				41DFC1952B229159003B5764 /* LoadingImageFromRemoteServer.swift in Sources */,
+				4130CFFB2B250F66000EDD69 /* Checkout.swift in Sources */,
 				41DFC1842B2156B2003B5764 /* CupCakeCornerApp.swift in Sources */,
 				41DFC1922B215897003B5764 /* SendingRecievingCodableDataWithURLSessions.swift in Sources */,
 			);
