@@ -14,6 +14,11 @@
 		4141714C2B27F3770059905F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141714B2B27F3770059905F /* User.swift */; };
 		414171502B2926900059905F /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141714F2B2926900059905F /* EditUserView.swift */; };
 		414171522B29279C0059905F /* EditingSwiftDataModelTechniques.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414171512B29279C0059905F /* EditingSwiftDataModelTechniques.swift */; };
+		414171542B2929240059905F /* FilteringAtQueryUsingPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414171532B2929240059905F /* FilteringAtQueryUsingPredicate.swift */; };
+		414171562B292BFA0059905F /* DynamicallySortingandFilteringAtQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414171552B292BFA0059905F /* DynamicallySortingandFilteringAtQuery.swift */; };
+		414171582B292C460059905F /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414171572B292C460059905F /* UsersView.swift */; };
+		4141715A2B2A74280059905F /* RelationshipBetweenDataUIAtQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414171592B2A74280059905F /* RelationshipBetweenDataUIAtQuery.swift */; };
+		4141715C2B2A74F10059905F /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4141715B2B2A74F10059905F /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,13 @@
 		4141714B2B27F3770059905F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4141714F2B2926900059905F /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 		414171512B29279C0059905F /* EditingSwiftDataModelTechniques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingSwiftDataModelTechniques.swift; sourceTree = "<group>"; };
+		414171532B2929240059905F /* FilteringAtQueryUsingPredicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringAtQueryUsingPredicate.swift; sourceTree = "<group>"; };
+		414171552B292BFA0059905F /* DynamicallySortingandFilteringAtQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicallySortingandFilteringAtQuery.swift; sourceTree = "<group>"; };
+		414171572B292C460059905F /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		414171592B2A74280059905F /* RelationshipBetweenDataUIAtQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipBetweenDataUIAtQuery.swift; sourceTree = "<group>"; };
+		4141715B2B2A74F10059905F /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		4141715D2B2A7B080059905F /* SwiftDataProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDataProject.entitlements; sourceTree = "<group>"; };
+		4141715E2B2A7B5D0059905F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +69,18 @@
 		4141713C2B27F26D0059905F /* SwiftDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				4141715E2B2A7B5D0059905F /* Info.plist */,
+				4141715D2B2A7B080059905F /* SwiftDataProject.entitlements */,
 				4141713D2B27F26D0059905F /* SwiftDataProjectApp.swift */,
 				4141713F2B27F26D0059905F /* ContentView.swift */,
 				4141714B2B27F3770059905F /* User.swift */,
 				4141714F2B2926900059905F /* EditUserView.swift */,
 				414171512B29279C0059905F /* EditingSwiftDataModelTechniques.swift */,
+				414171532B2929240059905F /* FilteringAtQueryUsingPredicate.swift */,
+				414171552B292BFA0059905F /* DynamicallySortingandFilteringAtQuery.swift */,
+				414171592B2A74280059905F /* RelationshipBetweenDataUIAtQuery.swift */,
+				4141715B2B2A74F10059905F /* Job.swift */,
+				414171572B292C460059905F /* UsersView.swift */,
 				414171412B27F26E0059905F /* Assets.xcassets */,
 				414171432B27F26E0059905F /* Preview Content */,
 			);
@@ -147,10 +166,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				414171402B27F26D0059905F /* ContentView.swift in Sources */,
+				414171562B292BFA0059905F /* DynamicallySortingandFilteringAtQuery.swift in Sources */,
+				4141715A2B2A74280059905F /* RelationshipBetweenDataUIAtQuery.swift in Sources */,
 				414171522B29279C0059905F /* EditingSwiftDataModelTechniques.swift in Sources */,
 				414171502B2926900059905F /* EditUserView.swift in Sources */,
 				4141713E2B27F26D0059905F /* SwiftDataProjectApp.swift in Sources */,
 				4141714C2B27F3770059905F /* User.swift in Sources */,
+				414171542B2929240059905F /* FilteringAtQueryUsingPredicate.swift in Sources */,
+				414171582B292C460059905F /* UsersView.swift in Sources */,
+				4141715C2B2A74F10059905F /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,12 +305,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftDataProject/SwiftDataProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataProject/Preview Content\"";
 				DEVELOPMENT_TEAM = CWCBRR328H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDataProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -310,12 +336,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwiftDataProject/SwiftDataProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataProject/Preview Content\"";
 				DEVELOPMENT_TEAM = CWCBRR328H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDataProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
