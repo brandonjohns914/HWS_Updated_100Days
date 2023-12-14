@@ -16,6 +16,10 @@ struct ContentView: View {
             VStack {
                 Text("Welcome to iExpense")
                 Text("Select A Version" )
+                
+                NavigationLink("SwiftData Version"){
+                    ContentNavigationSwiftData()
+                }
             }
             .navigationTitle("iExpense")
             .toolbar {
@@ -37,4 +41,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .modelContainer(for: ExpensesItemSwiftData.self)
 }
