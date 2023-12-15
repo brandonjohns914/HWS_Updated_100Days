@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41516F682B2D1110007F17F3 /* HowToLetUserShareContentWithShareLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41516F672B2D1110007F17F3 /* HowToLetUserShareContentWithShareLink.swift */; };
 		41A88D1C2B2A956D008B4FE0 /* InstaFilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A88D1B2B2A956D008B4FE0 /* InstaFilterApp.swift */; };
 		41A88D1E2B2A956D008B4FE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A88D1D2B2A956D008B4FE0 /* ContentView.swift */; };
 		41A88D202B2A956F008B4FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A88D1F2B2A956F008B4FE0 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41516F672B2D1110007F17F3 /* HowToLetUserShareContentWithShareLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToLetUserShareContentWithShareLink.swift; sourceTree = "<group>"; };
 		41A88D182B2A956D008B4FE0 /* InstaFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A88D1B2B2A956D008B4FE0 /* InstaFilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaFilterApp.swift; sourceTree = "<group>"; };
 		41A88D1D2B2A956D008B4FE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				41A88D302B2BC7A1008B4FE0 /* IntegratingCoreImageWithSwiftUI.swift */,
 				41A88D322B2BD3F8008B4FE0 /* ShowingEmptyStateWithContentUnavailableView.swift */,
 				41A88D342B2BD99D008B4FE0 /* LoadingPhotosFromUsersPhotoLibrary.swift */,
+				41516F672B2D1110007F17F3 /* HowToLetUserShareContentWithShareLink.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				41A88D2F2B2BC547008B4FE0 /* ShowingMultipleOptionsWithConfirmationDialog.swift in Sources */,
 				41A88D352B2BD99D008B4FE0 /* LoadingPhotosFromUsersPhotoLibrary.swift in Sources */,
 				41A88D2D2B2BC2E7008B4FE0 /* RespondingToStateChangesUsingOnChange.swift in Sources */,
+				41516F682B2D1110007F17F3 /* HowToLetUserShareContentWithShareLink.swift in Sources */,
 				41A88D1C2B2A956D008B4FE0 /* InstaFilterApp.swift in Sources */,
 				41A88D2A2B2BC108008B4FE0 /* HowPropertyWrappersBecomeStructs.swift in Sources */,
 				41A88D332B2BD3F8008B4FE0 /* ShowingEmptyStateWithContentUnavailableView.swift in Sources */,
