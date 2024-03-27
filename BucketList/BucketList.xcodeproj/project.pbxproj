@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410783B92BB3A27300A8FC66 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410783B82BB3A27300A8FC66 /* Location.swift */; };
+		410783BB2BB3A3B200A8FC66 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410783BA2BB3A3B200A8FC66 /* EditView.swift */; };
 		41D4D5672BB2561D00207B4A /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4D5662BB2561D00207B4A /* BucketListApp.swift */; };
 		41D4D5692BB2561D00207B4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4D5682BB2561D00207B4A /* ContentView.swift */; };
 		41D4D56B2BB2561F00207B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D4D56A2BB2561F00207B4A /* Assets.xcassets */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		410783B82BB3A27300A8FC66 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		410783BA2BB3A3B200A8FC66 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		41D4D5632BB2561D00207B4A /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D4D5662BB2561D00207B4A /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		41D4D5682BB2561D00207B4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 			children = (
 				41D4D5662BB2561D00207B4A /* BucketListApp.swift */,
 				41D4D5682BB2561D00207B4A /* ContentView.swift */,
+				410783BA2BB3A3B200A8FC66 /* EditView.swift */,
+				410783B82BB3A27300A8FC66 /* Location.swift */,
 				41D4D5772BB258E900207B4A /* Tutorials */,
 				41D4D56A2BB2561F00207B4A /* Assets.xcassets */,
 				41D4D56C2BB2561F00207B4A /* BucketList.entitlements */,
@@ -164,8 +170,10 @@
 			files = (
 				41D4D5792BB34DF800207B4A /* WritingDataToDocumentsDirectory.swift in Sources */,
 				41D4D5762BB258E400207B4A /* AddingConformanceToComparableForCustomTypes.swift in Sources */,
+				410783B92BB3A27300A8FC66 /* Location.swift in Sources */,
 				41D4D57F2BB3518A00207B4A /* UsingTouchAndFaceID.swift in Sources */,
 				41D4D5692BB2561D00207B4A /* ContentView.swift in Sources */,
+				410783BB2BB3A3B200A8FC66 /* EditView.swift in Sources */,
 				41D4D57D2BB34FD600207B4A /* MapKitWithSwiftUI.swift in Sources */,
 				41D4D57B2BB34F4100207B4A /* SwitchingViewStatesWithEnums.swift in Sources */,
 				41D4D5672BB2561D00207B4A /* BucketListApp.swift in Sources */,
