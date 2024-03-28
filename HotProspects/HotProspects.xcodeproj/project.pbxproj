@@ -17,6 +17,8 @@
 		416E4A2A2BB630F600DD62BC /* CreatingContextMenus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E4A292BB630F600DD62BC /* CreatingContextMenus.swift */; };
 		416E4A2C2BB6315D00DD62BC /* AddingCustomRowSwipeActionsToList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E4A2B2BB6315D00DD62BC /* AddingCustomRowSwipeActionsToList.swift */; };
 		416E4A2E2BB6319200DD62BC /* SchedulingLocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E4A2D2BB6319200DD62BC /* SchedulingLocalNotifications.swift */; };
+		416E4A312BB632AB00DD62BC /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 416E4A302BB632AB00DD62BC /* SamplePackage */; };
+		416E4A332BB632C700DD62BC /* AddingSwiftPackageDependenciesInXcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E4A322BB632C700DD62BC /* AddingSwiftPackageDependenciesInXcode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,7 @@
 		416E4A292BB630F600DD62BC /* CreatingContextMenus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatingContextMenus.swift; sourceTree = "<group>"; };
 		416E4A2B2BB6315D00DD62BC /* AddingCustomRowSwipeActionsToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCustomRowSwipeActionsToList.swift; sourceTree = "<group>"; };
 		416E4A2D2BB6319200DD62BC /* SchedulingLocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingLocalNotifications.swift; sourceTree = "<group>"; };
+		416E4A322BB632C700DD62BC /* AddingSwiftPackageDependenciesInXcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSwiftPackageDependenciesInXcode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416E4A312BB632AB00DD62BC /* SamplePackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +95,7 @@
 				416E4A292BB630F600DD62BC /* CreatingContextMenus.swift */,
 				416E4A2B2BB6315D00DD62BC /* AddingCustomRowSwipeActionsToList.swift */,
 				416E4A2D2BB6319200DD62BC /* SchedulingLocalNotifications.swift */,
+				416E4A322BB632C700DD62BC /* AddingSwiftPackageDependenciesInXcode.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -111,6 +116,9 @@
 			dependencies = (
 			);
 			name = HotProspects;
+			packageProductDependencies = (
+				416E4A302BB632AB00DD62BC /* SamplePackage */,
+			);
 			productName = HotProspects;
 			productReference = 416E4A102BB62CFA00DD62BC /* HotProspects.app */;
 			productType = "com.apple.product-type.application";
@@ -139,6 +147,9 @@
 				Base,
 			);
 			mainGroup = 416E4A072BB62CF900DD62BC;
+			packageReferences = (
+				416E4A2F2BB632AB00DD62BC /* XCRemoteSwiftPackageReference "SamplePackage" */,
+			);
 			productRefGroup = 416E4A112BB62CFA00DD62BC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -172,6 +183,7 @@
 				416E4A262BB62F5D00DD62BC /* CreatingTabsWithTabView.swift in Sources */,
 				416E4A142BB62CFA00DD62BC /* HotProspectsApp.swift in Sources */,
 				416E4A2C2BB6315D00DD62BC /* AddingCustomRowSwipeActionsToList.swift in Sources */,
+				416E4A332BB632C700DD62BC /* AddingSwiftPackageDependenciesInXcode.swift in Sources */,
 				416E4A232BB62DF500DD62BC /* UsersSelectItemsInList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +403,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		416E4A2F2BB632AB00DD62BC /* XCRemoteSwiftPackageReference "SamplePackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/SamplePackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		416E4A302BB632AB00DD62BC /* SamplePackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 416E4A2F2BB632AB00DD62BC /* XCRemoteSwiftPackageReference "SamplePackage" */;
+			productName = SamplePackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 416E4A082BB62CF900DD62BC /* Project object */;
 }
