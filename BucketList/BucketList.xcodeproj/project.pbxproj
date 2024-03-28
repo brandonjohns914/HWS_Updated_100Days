@@ -11,6 +11,7 @@
 		410783BB2BB3A3B200A8FC66 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410783BA2BB3A3B200A8FC66 /* EditView.swift */; };
 		41D282E92BB4BA88007F8B21 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D282E82BB4BA88007F8B21 /* Result.swift */; };
 		41D282EB2BB4E88F007F8B21 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D282EA2BB4E88F007F8B21 /* ContentView-ViewModel.swift */; };
+		41D282ED2BB4F01C007F8B21 /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D282EC2BB4F01C007F8B21 /* EditView-ViewModel.swift */; };
 		41D4D5672BB2561D00207B4A /* BucketListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4D5662BB2561D00207B4A /* BucketListApp.swift */; };
 		41D4D5692BB2561D00207B4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D4D5682BB2561D00207B4A /* ContentView.swift */; };
 		41D4D56B2BB2561F00207B4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41D4D56A2BB2561F00207B4A /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		410783BA2BB3A3B200A8FC66 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		41D282E82BB4BA88007F8B21 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		41D282EA2BB4E88F007F8B21 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		41D282EC2BB4F01C007F8B21 /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 		41D4D5632BB2561D00207B4A /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D4D5662BB2561D00207B4A /* BucketListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketListApp.swift; sourceTree = "<group>"; };
 		41D4D5682BB2561D00207B4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				41D282EA2BB4E88F007F8B21 /* ContentView-ViewModel.swift */,
 				41D282E82BB4BA88007F8B21 /* Result.swift */,
 				410783BA2BB3A3B200A8FC66 /* EditView.swift */,
+				41D282EC2BB4F01C007F8B21 /* EditView-ViewModel.swift */,
 				410783B82BB3A27300A8FC66 /* Location.swift */,
 				41D4D5772BB258E900207B4A /* Tutorials */,
 				41D4D56A2BB2561F00207B4A /* Assets.xcassets */,
@@ -179,6 +182,7 @@
 				410783B92BB3A27300A8FC66 /* Location.swift in Sources */,
 				41D4D57F2BB3518A00207B4A /* UsingTouchAndFaceID.swift in Sources */,
 				41D4D5692BB2561D00207B4A /* ContentView.swift in Sources */,
+				41D282ED2BB4F01C007F8B21 /* EditView-ViewModel.swift in Sources */,
 				410783BB2BB3A3B200A8FC66 /* EditView.swift in Sources */,
 				41D282E92BB4BA88007F8B21 /* Result.swift in Sources */,
 				41D282EB2BB4E88F007F8B21 /* ContentView-ViewModel.swift in Sources */,
