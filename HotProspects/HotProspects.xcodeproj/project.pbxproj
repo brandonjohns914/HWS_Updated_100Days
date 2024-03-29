@@ -19,6 +19,9 @@
 		416E4A2E2BB6319200DD62BC /* SchedulingLocalNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E4A2D2BB6319200DD62BC /* SchedulingLocalNotifications.swift */; };
 		416E4A312BB632AB00DD62BC /* SamplePackage in Frameworks */ = {isa = PBXBuildFile; productRef = 416E4A302BB632AB00DD62BC /* SamplePackage */; };
 		416E4A332BB632C700DD62BC /* AddingSwiftPackageDependenciesInXcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E4A322BB632C700DD62BC /* AddingSwiftPackageDependenciesInXcode.swift */; };
+		417C0C592BB77DA30003AC89 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C582BB77DA30003AC89 /* ProspectsView.swift */; };
+		417C0C5B2BB77DD30003AC89 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C5A2BB77DD30003AC89 /* MeView.swift */; };
+		417C0C5D2BB77E7A0003AC89 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C5C2BB77E7A0003AC89 /* Prospect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		416E4A2B2BB6315D00DD62BC /* AddingCustomRowSwipeActionsToList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCustomRowSwipeActionsToList.swift; sourceTree = "<group>"; };
 		416E4A2D2BB6319200DD62BC /* SchedulingLocalNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingLocalNotifications.swift; sourceTree = "<group>"; };
 		416E4A322BB632C700DD62BC /* AddingSwiftPackageDependenciesInXcode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingSwiftPackageDependenciesInXcode.swift; sourceTree = "<group>"; };
+		417C0C582BB77DA30003AC89 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		417C0C5A2BB77DD30003AC89 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
+		417C0C5C2BB77E7A0003AC89 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 			children = (
 				416E4A132BB62CFA00DD62BC /* HotProspectsApp.swift */,
 				416E4A152BB62CFA00DD62BC /* ContentView.swift */,
+				417C0C582BB77DA30003AC89 /* ProspectsView.swift */,
+				417C0C5C2BB77E7A0003AC89 /* Prospect.swift */,
+				417C0C5A2BB77DD30003AC89 /* MeView.swift */,
 				416E4A242BB62DFF00DD62BC /* Tutorials */,
 				416E4A172BB62CFB00DD62BC /* Assets.xcassets */,
 				416E4A192BB62CFB00DD62BC /* HotProspects.entitlements */,
@@ -177,13 +186,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				416E4A2E2BB6319200DD62BC /* SchedulingLocalNotifications.swift in Sources */,
+				417C0C5D2BB77E7A0003AC89 /* Prospect.swift in Sources */,
 				416E4A162BB62CFA00DD62BC /* ContentView.swift in Sources */,
+				417C0C592BB77DA30003AC89 /* ProspectsView.swift in Sources */,
 				416E4A2A2BB630F600DD62BC /* CreatingContextMenus.swift in Sources */,
 				416E4A282BB62FE400DD62BC /* UnderstandingSwiftResultType.swift in Sources */,
 				416E4A262BB62F5D00DD62BC /* CreatingTabsWithTabView.swift in Sources */,
 				416E4A142BB62CFA00DD62BC /* HotProspectsApp.swift in Sources */,
 				416E4A2C2BB6315D00DD62BC /* AddingCustomRowSwipeActionsToList.swift in Sources */,
 				416E4A332BB632C700DD62BC /* AddingSwiftPackageDependenciesInXcode.swift in Sources */,
+				417C0C5B2BB77DD30003AC89 /* MeView.swift in Sources */,
 				416E4A232BB62DF500DD62BC /* UsersSelectItemsInList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
