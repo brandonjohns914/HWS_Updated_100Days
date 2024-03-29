@@ -23,6 +23,8 @@
 		417C0C5B2BB77DD30003AC89 /* MeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C5A2BB77DD30003AC89 /* MeView.swift */; };
 		417C0C5D2BB77E7A0003AC89 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C5C2BB77E7A0003AC89 /* Prospect.swift */; };
 		417C0C602BB784220003AC89 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 417C0C5F2BB784220003AC89 /* CodeScanner */; };
+		417C0C632BB78A050003AC89 /* EditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C622BB78A050003AC89 /* EditingView.swift */; };
+		417C0C652BB78AE10003AC89 /* SortableProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C642BB78AE10003AC89 /* SortableProspectsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		417C0C5A2BB77DD30003AC89 /* MeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeView.swift; sourceTree = "<group>"; };
 		417C0C5C2BB77E7A0003AC89 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
 		417C0C612BB784CB0003AC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		417C0C622BB78A050003AC89 /* EditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingView.swift; sourceTree = "<group>"; };
+		417C0C642BB78AE10003AC89 /* SortableProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortableProspectsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 				416E4A132BB62CFA00DD62BC /* HotProspectsApp.swift */,
 				416E4A152BB62CFA00DD62BC /* ContentView.swift */,
 				417C0C582BB77DA30003AC89 /* ProspectsView.swift */,
+				417C0C622BB78A050003AC89 /* EditingView.swift */,
 				417C0C5C2BB77E7A0003AC89 /* Prospect.swift */,
+				417C0C642BB78AE10003AC89 /* SortableProspectsView.swift */,
 				417C0C5A2BB77DD30003AC89 /* MeView.swift */,
 				416E4A242BB62DFF00DD62BC /* Tutorials */,
 				416E4A172BB62CFB00DD62BC /* Assets.xcassets */,
@@ -197,7 +203,9 @@
 				417C0C592BB77DA30003AC89 /* ProspectsView.swift in Sources */,
 				416E4A2A2BB630F600DD62BC /* CreatingContextMenus.swift in Sources */,
 				416E4A282BB62FE400DD62BC /* UnderstandingSwiftResultType.swift in Sources */,
+				417C0C632BB78A050003AC89 /* EditingView.swift in Sources */,
 				416E4A262BB62F5D00DD62BC /* CreatingTabsWithTabView.swift in Sources */,
+				417C0C652BB78AE10003AC89 /* SortableProspectsView.swift in Sources */,
 				416E4A142BB62CFA00DD62BC /* HotProspectsApp.swift in Sources */,
 				416E4A2C2BB6315D00DD62BC /* AddingCustomRowSwipeActionsToList.swift in Sources */,
 				416E4A332BB632C700DD62BC /* AddingSwiftPackageDependenciesInXcode.swift in Sources */,
