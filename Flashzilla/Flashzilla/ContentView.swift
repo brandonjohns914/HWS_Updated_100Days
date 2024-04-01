@@ -13,8 +13,9 @@ struct ContentView: View {
     @Environment(\.scenePhase) var scenePhase
     @State private var showingEditScreen = false
     @State private var isActive = true
-    @State private var cards = [Card]()
+    @State private var cards = DataManager.load()
     @State private var timeRemaining = 100
+    
     let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
     var body: some View {
         ZStack {
@@ -31,15 +32,15 @@ struct ContentView: View {
                     .background(.black.opacity(0.75))
                     .clipShape(.capsule)
                 ZStack{
-                    ForEach(0..<cards.count, id: \.self) { index in
-                        CardView(card: cards[index]) {
+                    ForEach(Array(cards.enumerated()), id: \.element) { item in
+                        CardView(card: item.element) { reinsert in
                             withAnimation {
-                                removeCard(at: index)
+                                removeCard(at: item.offset, reinsert: reinsert)
                             }
                         }
-                        .stacked(at: index, in: cards.count)
-                        .allowsHitTesting(index == cards.count - 1)
-                        .accessibilityHidden(index < cards.count - 1)
+                        .stacked(at: item.offset, in: cards.count)
+                        .allowsHitTesting(item.offset == cards.count - 1)
+                        .accessibilityHidden(item.offset < cards.count - 1)
                     }
                 }
                 .allowsHitTesting(timeRemaining > 0)
@@ -78,7 +79,7 @@ struct ContentView: View {
                     HStack {
                         Button {
                             withAnimation {
-                                removeCard(at: cards.count - 1)
+                                removeCard(at: cards.count - 1, reinsert: true)
                             }
                         } label: {
                             Image(systemName: "xmark.circle")
@@ -93,7 +94,7 @@ struct ContentView: View {
 
                         Button {
                             withAnimation {
-                                removeCard(at: cards.count - 1)
+                                removeCard(at: cards.count - 1, reinsert: false)
                             }
                         } label: {
                             Image(systemName: "checkmark.circle")
@@ -132,10 +133,16 @@ struct ContentView: View {
 
         .sheet(isPresented: $showingEditScreen, onDismiss: resetCards, content: EditCards.init)
     }
-    func removeCard(at index: Int) {
+    func removeCard(at index: Int, reinsert: Bool) {
         guard index >= 0 else { return }
         
-        cards.remove(at: index)
+        if reinsert {
+            cards.move(fromOffsets: IndexSet(integer: index), toOffset: 0)
+        } else {
+            cards.remove(at: index)
+        }
+        
+        
         if cards.isEmpty {
             isActive = false
         }
@@ -143,14 +150,7 @@ struct ContentView: View {
     func resetCards() {
         timeRemaining = 100
         isActive = true
-        loadData()
-    }
-    func loadData() {
-        if let data = UserDefaults.standard.data(forKey: "Cards") {
-            if let decoded = try? JSONDecoder().decode([Card].self, from: data) {
-                cards = decoded
-            }
-        }
+        cards = DataManager.load()
     }
 }
 

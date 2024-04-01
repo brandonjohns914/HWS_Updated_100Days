@@ -19,6 +19,7 @@
 		417C0C8D2BBB5C210003AC89 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C8C2BBB5C210003AC89 /* Card.swift */; };
 		417C0C8F2BBB5C5E0003AC89 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C8E2BBB5C5E0003AC89 /* CardView.swift */; };
 		417C0C912BBB63D20003AC89 /* EditCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C902BBB63D20003AC89 /* EditCards.swift */; };
+		417C0C952BBB743B0003AC89 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417C0C942BBB743B0003AC89 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		417C0C8C2BBB5C210003AC89 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		417C0C8E2BBB5C5E0003AC89 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		417C0C902BBB63D20003AC89 /* EditCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCards.swift; sourceTree = "<group>"; };
+		417C0C942BBB743B0003AC89 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				417C0C722BBB538B0003AC89 /* FlashzillaApp.swift */,
 				417C0C742BBB538B0003AC89 /* ContentView.swift */,
 				417C0C8C2BBB5C210003AC89 /* Card.swift */,
+				417C0C942BBB743B0003AC89 /* DataManager.swift */,
 				417C0C902BBB63D20003AC89 /* EditCards.swift */,
 				417C0C8E2BBB5C5E0003AC89 /* CardView.swift */,
 				417C0C832BBB59FD0003AC89 /* Tutorial */,
@@ -179,6 +182,7 @@
 				417C0C852BBB5A150003AC89 /* DisablingUserInteractionWithAllowsHitTesting.swift in Sources */,
 				417C0C8B2BBB5B5B0003AC89 /* SupportingSpecificAccessibilityNeeds.swift in Sources */,
 				417C0C732BBB538B0003AC89 /* FlashzillaApp.swift in Sources */,
+				417C0C952BBB743B0003AC89 /* DataManager.swift in Sources */,
 				417C0C892BBB5AEB0003AC89 /* NotifiedWhenAppMovesToBackground.swift in Sources */,
 				417C0C8D2BBB5C210003AC89 /* Card.swift in Sources */,
 			);
