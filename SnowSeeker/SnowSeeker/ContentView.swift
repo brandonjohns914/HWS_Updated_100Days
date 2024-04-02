@@ -9,7 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var searchText = ""
+    
     let resorts: [Resort] = Bundle.main.decode("resorts.json")
+    
     var filteredResorts: [Resort] {
         if searchText.isEmpty {
            resorts
@@ -18,6 +20,7 @@ struct ContentView: View {
         }
     }
 
+    @State private var favorites = Favorites()
     
     var body: some View {
         NavigationSplitView {
@@ -40,6 +43,14 @@ struct ContentView: View {
                             Text("\(resort.runs) runs")
                                 .foregroundStyle(.secondary)
                         }
+                        
+                        if favorites.contains(resort) {
+                            Spacer()
+                            Image(systemName: "heart.fill")
+                            .accessibilityLabel("This is a favorite resort")
+                                .foregroundStyle(.red)
+                        }
+
                     }
                 }
             }
@@ -48,9 +59,11 @@ struct ContentView: View {
                 ResortView(resort: resort)
             }
             .searchable(text: $searchText, prompt: "Search for a resort")
+         
         } detail: {
                 WelcomeView()
         }
+        .environment(favorites)
     }
 }
 

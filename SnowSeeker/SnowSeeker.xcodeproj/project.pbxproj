@@ -24,6 +24,7 @@
 		41AD7C3A2BBC7DE000800C7D /* SkiDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD7C392BBC7DE000800C7D /* SkiDetailsView.swift */; };
 		41AD7C3C2BBC7E8100800C7D /* ResortsDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD7C3B2BBC7E8100800C7D /* ResortsDetailsView.swift */; };
 		41AD7C3E2BBCA04500800C7D /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD7C3D2BBCA04500800C7D /* Facility.swift */; };
+		41AD7C402BBCA14300800C7D /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AD7C3F2BBCA14300800C7D /* Favorites.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		41AD7C392BBC7DE000800C7D /* SkiDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkiDetailsView.swift; sourceTree = "<group>"; };
 		41AD7C3B2BBC7E8100800C7D /* ResortsDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResortsDetailsView.swift; sourceTree = "<group>"; };
 		41AD7C3D2BBCA04500800C7D /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
+		41AD7C3F2BBCA14300800C7D /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				41AD7C3B2BBC7E8100800C7D /* ResortsDetailsView.swift */,
 				41AD7C352BBC7BA500800C7D /* WelcomeView.swift */,
 				41AD7C372BBC7BDB00800C7D /* ResortView.swift */,
+				41AD7C3F2BBCA14300800C7D /* Favorites.swift */,
 				41AD7C3D2BBCA04500800C7D /* Facility.swift */,
 				41AD7C312BBC7A2500800C7D /* Resort.swift */,
 				41AD7C332BBC7A5800800C7D /* Bundle-Decodable.swift */,
@@ -190,6 +193,7 @@
 				41AD7C2A2BBC786A00800C7D /* AlertAndSheetWithOptionals.swift in Sources */,
 				41AD7C182BBC6E6200800C7D /* ContentView.swift in Sources */,
 				41AD7C302BBC798A00800C7D /* SharingATObservableObjectsThroughSwiftUIsEnvironment.swift in Sources */,
+				41AD7C402BBCA14300800C7D /* Favorites.swift in Sources */,
 				41AD7C382BBC7BDB00800C7D /* ResortView.swift in Sources */,
 				41AD7C162BBC6E6200800C7D /* SnowSeekerApp.swift in Sources */,
 				41AD7C272BBC77A500800C7D /* WorkingWithTwoSideBySideViews.swift in Sources */,
