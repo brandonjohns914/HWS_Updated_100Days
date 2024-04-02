@@ -8,7 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    enum SortType {
+        case `default`, alphabetical, country
+    }
+    
     @State private var searchText = ""
+    @State private var sortType = SortType.default
+    @State private var showingSortOptions = false
     
     let resorts: [Resort] = Bundle.main.decode("resorts.json")
     
@@ -19,12 +26,23 @@ struct ContentView: View {
             resorts.filter { $0.name.localizedStandardContains(searchText) }
         }
     }
+    
+    var sortedResorts: [Resort] {
+        switch sortType {
+        case .default:
+            filteredResorts
+        case .alphabetical:
+            filteredResorts.sorted { $0.name < $1.name }
+        case .country:
+            filteredResorts.sorted { $0.country < $1.country }
+        }
+    }
 
     @State private var favorites = Favorites()
     
     var body: some View {
         NavigationSplitView {
-            List(filteredResorts){ resort in
+            List(sortedResorts){ resort in
                 NavigationLink(value: resort) {
                     HStack {
                         Image(resort.country)
@@ -64,6 +82,16 @@ struct ContentView: View {
                 WelcomeView()
         }
         .environment(favorites)
+        .toolbar {
+            Button("Change sort order", systemImage: "arrow.up.arrow.down") {
+                showingSortOptions = true
+            }
+        }
+        .confirmationDialog("Sort order", isPresented: $showingSortOptions) {
+            Button("Default") { sortType = .default }
+            Button("Alphabetical") { sortType = .alphabetical }
+            Button("By Country") { sortType = .country }
+        }
     }
 }
 
